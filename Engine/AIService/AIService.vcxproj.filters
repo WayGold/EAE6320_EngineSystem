@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SteeringOutput">
+      <UniqueIdentifier>{43064bff-1d1a-4ab3-ac30-7ce1109e55b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{ad08dae0-e340-4050-9a71-a34a54d9c81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinematic">
+      <UniqueIdentifier>{a6ae6bf7-1b36-487c-b48b-6e69d4a657af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Basic">
+      <UniqueIdentifier>{eb8ef95c-f068-4449-8896-6c96a8968c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ad6c1a7c-16d1-464f-9210-5350c44369db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Advanced">
+      <UniqueIdentifier>{1266eff8-af86-4c26-96c2-a536aaf3b6b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringOutput\KinematicSteering.h">
+      <Filter>SteeringOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringOutput\DynamicSteering.h">
+      <Filter>SteeringOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinematic\KinematicSeek.h">
+      <Filter>Kinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic\Basic\DynamicSeek.h">
+      <Filter>Dynamic\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="AIService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic\Basic\DynamicAlign.h">
+      <Filter>Dynamic\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic\Basic\DynamicArrive.h">
+      <Filter>Dynamic\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic\Advanced\DynamicLWYG.h">
+      <Filter>Dynamic\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic\Basic\DynamicWander.h">
+      <Filter>Dynamic\Basic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AIService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinematic\KinematicSeek.cpp">
+      <Filter>Kinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic\Basic\DynamicSeek.cpp">
+      <Filter>Dynamic\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic\Basic\DynamicAlign.cpp">
+      <Filter>Dynamic\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic\Basic\DynamicArrive.cpp">
+      <Filter>Dynamic\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic\Advanced\DynamicLWYG.cpp">
+      <Filter>Dynamic\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic\Basic\DynamicWander.cpp">
+      <Filter>Dynamic\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
